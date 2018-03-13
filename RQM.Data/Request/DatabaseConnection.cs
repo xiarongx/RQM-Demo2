@@ -1,8 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+﻿using System;
 
 namespace RQM.Data.Request
 {
@@ -10,12 +6,9 @@ namespace RQM.Data.Request
     {
         public string GetConnectionString()
         {
-            var configuration = new ConfigurationBuilder()
-                        .SetBasePath(Directory.GetCurrentDirectory())
-                        .AddJsonFile("appsettings.json", false)
-                        .Build();
 
-            string connectionString = configuration.GetConnectionString("DefaultConnection");
+
+            string connectionString = "Server=UAT-SQL2012.RESTONUAT.local;Database=DevOps;User Id=devops_user;Password=e93006799694c7-1F;";
 
             if (string.IsNullOrEmpty(connectionString))
             {

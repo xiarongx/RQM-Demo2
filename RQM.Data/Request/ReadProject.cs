@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using RQM.Data.Model;
+﻿using RQM.Data.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -47,9 +46,9 @@ namespace RQM.Data.Request
             return projectList;
         }
 
-        public string getProjectsByAccessGroupTypeName(string groupTypeName)
+        public List<Project> getProjectsByAccessGroupTypeName(string groupTypeName)
         {
-            List<string> projectList = new List<string>();
+            List<Project> projectList = new List<Project>();
 
             DatabaseConnection databaseConnection = new DatabaseConnection();
             string connectionString = databaseConnection.GetConnectionString();
@@ -75,13 +74,15 @@ namespace RQM.Data.Request
                         {
                             foreach (var item in dataRow.ItemArray)
                             {
-                                projectList.Add(item.ToString());
+                                Project project = new Project();
+                                project.Name = item.ToString();
+                                projectList.Add(project);
                             }
                         }
                     }
                 }
             }
-            return JsonConvert.SerializeObject(projectList);
+            return projectList;
         }
     }
 }

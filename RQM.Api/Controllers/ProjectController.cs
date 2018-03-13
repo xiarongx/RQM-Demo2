@@ -49,14 +49,14 @@ namespace RQM.Api.Controllers
         // GET: api/Project/Admin
         // name convention: pascal
         [HttpGet("{groupTypeName}", Name = "Get")]
-        public string Get(string groupTypeName)
+        public JsonResult Get(string groupTypeName)
         {
-            string projectList = "";
+            List<Project> projectList = new List<Project>();
             try
             {
                 _logger.LogInformation("Getting project list by group type name: {groupTypeName}", groupTypeName);
                 projectList = readProject.getProjectsByAccessGroupTypeName(groupTypeName);
-                return projectList;
+                return Json(projectList);
             }
             catch (Exception ex)
             {

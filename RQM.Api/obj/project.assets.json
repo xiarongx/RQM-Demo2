@@ -1846,10 +1846,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/2.1.0-preview1-final": {
+      "Microsoft.Extensions.Configuration/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.1.0-preview1-final"
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -1858,10 +1858,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/2.1.0-preview1-final": {
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.1.0-preview1-final"
+          "Microsoft.Extensions.Primitives": "2.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -1921,11 +1921,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.FileExtensions/2.1.0-preview1-final": {
+      "Microsoft.Extensions.Configuration.FileExtensions/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.1.0-preview1-final",
-          "Microsoft.Extensions.FileProviders.Physical": "2.1.0-preview1-final"
+          "Microsoft.Extensions.Configuration": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
@@ -1947,11 +1947,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Ini.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Json/2.1.0-preview1-final": {
+      "Microsoft.Extensions.Configuration.Json/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.1.0-preview1-final",
-          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0-preview1-final",
+          "Microsoft.Extensions.Configuration": "2.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.0.0",
           "Newtonsoft.Json": "10.0.1"
         },
         "compile": {
@@ -2039,10 +2039,10 @@
           "lib/netcoreapp2.0/Microsoft.Extensions.DiagnosticAdapter.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/2.1.0-preview1-final": {
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.1.0-preview1-final"
+          "Microsoft.Extensions.Primitives": "2.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
@@ -2075,11 +2075,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Physical/2.1.0-preview1-final": {
+      "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.0-preview1-final",
-          "Microsoft.Extensions.FileSystemGlobbing": "2.1.0-preview1-final"
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
@@ -2088,7 +2088,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/2.1.0-preview1-final": {
+      "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
@@ -2312,10 +2312,10 @@
           "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/2.1.0-preview1-final": {
+      "Microsoft.Extensions.Primitives/2.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.0-preview1-26216-02"
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
@@ -5171,9 +5171,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.1.0-preview1-final",
-          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0-preview1-final",
-          "Microsoft.Extensions.Configuration.Json": "2.1.0-preview1-final",
           "System.Data.SqlClient": "4.5.0-preview1-26216-02"
         },
         "compile": {
@@ -6665,25 +6662,25 @@
         "microsoft.extensions.caching.sqlserver.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration/2.1.0-preview1-final": {
-      "sha512": "VST9w4+xLD24+peRpTfD4nVHOQ3dyLP+ZDo3ep9fW/wLF2hMAfmwuAl1XNsXB7z4u8rAcRRXwUfVJ2r/4iAmvA==",
+    "Microsoft.Extensions.Configuration/2.0.0": {
+      "sha512": "SsI4RqI8EH00+cYO96tbftlh87sNUv1eeyuBU1XZdQkG0RrHAOjWgl7P0FoLeTSMXJpOnfweeOWj2d1/5H3FxA==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/2.1.0-preview1-final",
+      "path": "microsoft.extensions.configuration/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.configuration.2.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/2.1.0-preview1-final": {
-      "sha512": "N5FDg7GMpV/3bhdEVK7ozUVsAoyn/O2GEUMNRxEv8kPOqLZsuIA6cAEhexOOdAXM4oIIebXYFLrWa/4eWTn2pg==",
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/2.1.0-preview1-final",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
@@ -6731,14 +6728,14 @@
         "microsoft.extensions.configuration.environmentvariables.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.FileExtensions/2.1.0-preview1-final": {
-      "sha512": "H29FiZ/lZjjKR6WAusH8NGPW1WSllxpfbMonvccKloN4kzeZ67oM3y4o6I2niPAgjoW5cvPOByoJYrFl284Wvg==",
+    "Microsoft.Extensions.Configuration.FileExtensions/2.0.0": {
+      "sha512": "ebFbu+vsz4rzeAICWavk9a0FutWVs7aNZap5k/IVxVhu2CnnhOp/H/gNtpzplrqjYDaNYdmv9a/DoUvH2ynVEQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.fileextensions/2.1.0-preview1-final",
+      "path": "microsoft.extensions.configuration.fileextensions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "microsoft.extensions.configuration.fileextensions.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.2.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.fileextensions.nuspec"
       ]
     },
@@ -6753,14 +6750,14 @@
         "microsoft.extensions.configuration.ini.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Json/2.1.0-preview1-final": {
-      "sha512": "ZvEPZ3aIhkzB8fNi2QX2mVLkelJzVKQod1gD8SvOPa9BsBTkPf6jSlxVQ8xbEMU8Abo2w/Fio7PMICC9ynM9JA==",
+    "Microsoft.Extensions.Configuration.Json/2.0.0": {
+      "sha512": "thPz4SckRGNqeLbdvJ619YxRFSkWuL1K5QqTMb3TVdEwjQj4O39yfUtjtI/XlWJiY7JKK4MUKAiQZVYc8ohKKg==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.json/2.1.0-preview1-final",
+      "path": "microsoft.extensions.configuration.json/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
-        "microsoft.extensions.configuration.json.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.configuration.json.2.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.json.nuspec"
       ]
     },
@@ -6836,14 +6833,14 @@
         "microsoft.extensions.diagnosticadapter.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/2.1.0-preview1-final": {
-      "sha512": "TvFzcEMmQy0+6A7wQERWZO+lVub0lqz42TWDPvgrjz0pjdNRY3QbjjZ7OtXeBTsf6TbAP+p2kRWBeUTlHq6Xxg==",
+    "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+      "sha512": "Z0AK+hmLO33WAXQ5P1uPzhH7z5yjDHX/XnUefXxE//SyvCb9x4cVjND24dT5566t/yzGp8/WLD7EG9KQKZZklQ==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/2.1.0-preview1-final",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
@@ -6869,25 +6866,25 @@
         "microsoft.extensions.fileproviders.embedded.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Physical/2.1.0-preview1-final": {
-      "sha512": "kQLTl4PPKqI0nDXQFQBfff7A1nUWdEVkp3BI9NkUdutPpG7q/l+qJyyzOzVIsZrSArHBIqR/H9hfZSBGkOV+9w==",
+    "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
+      "sha512": "DKO2j2socZbHNCCVEWsLVpB3AQIIzKYFNyITVeWdA1jQ829GJIQf4MUD04+1c+Q2kbK03pIKQZmEy4CGIfgDZw==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/2.1.0-preview1-final",
+      "path": "microsoft.extensions.fileproviders.physical/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.2.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.physical.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileSystemGlobbing/2.1.0-preview1-final": {
-      "sha512": "kp0CpgzAMOCl5Do/JH/iXSRMtQY6+ZWi3SGiU8tnR4pHbE2nxczsXIhXa2TusSWihStfUJZR4fA21Bo5qJZJnw==",
+    "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
+      "sha512": "UC87vRDUB7/vSaNY/FVhbdAyRkfFBTkYmcUoglxk6TyTojhSqYaG5pZsoP4e1ZuXktFXJXJBTvK8U/QwCo0z3g==",
       "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/2.1.0-preview1-final",
+      "path": "microsoft.extensions.filesystemglobbing/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.2.0.0.nupkg.sha512",
         "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
@@ -7080,14 +7077,14 @@
         "microsoft.extensions.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/2.1.0-preview1-final": {
-      "sha512": "RbZvvDkV9jJBJ4V+XEW2RWLFemmDmrFWERGYh15j8oUjqDLMEtxR1p9a4cnAUe203WO+UjmF0Vxddxn990Rm3A==",
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "sha512": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/2.1.0-preview1-final",
+      "path": "microsoft.extensions.primitives/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.2.1.0-preview1-final.nupkg.sha512",
+        "microsoft.extensions.primitives.2.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },

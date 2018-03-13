@@ -1,6 +1,7 @@
 C:\CICD\RQMServices\RQM.Resource\bin\Debug\netcoreapp2.0\RQM.Resource.deps.json
 C:\CICD\RQMServices\RQM.Resource\bin\Debug\netcoreapp2.0\RQM.Resource.dll
 C:\CICD\RQMServices\RQM.Resource\bin\Debug\netcoreapp2.0\RQM.Resource.pdb
+C:\CICD\RQMServices\RQM.Resource\obj\Debug\netcoreapp2.0\RQM.Resource.csprojResolveAssemblyReference.cache
 C:\CICD\RQMServices\RQM.Resource\obj\Debug\netcoreapp2.0\RQM.Resource.csproj.CoreCompileInputs.cache
 C:\CICD\RQMServices\RQM.Resource\obj\Debug\netcoreapp2.0\RQM.Resource.AssemblyInfoInputs.cache
 C:\CICD\RQMServices\RQM.Resource\obj\Debug\netcoreapp2.0\RQM.Resource.AssemblyInfo.cs
