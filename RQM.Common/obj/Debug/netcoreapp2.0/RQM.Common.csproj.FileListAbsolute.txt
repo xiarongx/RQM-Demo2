@@ -1,0 +1,9 @@
+C:\CICD\RQMServices\RQM.Common\bin\Debug\netcoreapp2.0\RQM.Common.deps.json
+C:\CICD\RQMServices\RQM.Common\bin\Debug\netcoreapp2.0\RQM.Common.dll
+C:\CICD\RQMServices\RQM.Common\bin\Debug\netcoreapp2.0\RQM.Common.pdb
+C:\CICD\RQMServices\RQM.Common\obj\Debug\netcoreapp2.0\RQM.Common.csprojResolveAssemblyReference.cache
+C:\CICD\RQMServices\RQM.Common\obj\Debug\netcoreapp2.0\RQM.Common.csproj.CoreCompileInputs.cache
+C:\CICD\RQMServices\RQM.Common\obj\Debug\netcoreapp2.0\RQM.Common.AssemblyInfoInputs.cache
+C:\CICD\RQMServices\RQM.Common\obj\Debug\netcoreapp2.0\RQM.Common.AssemblyInfo.cs
+C:\CICD\RQMServices\RQM.Common\obj\Debug\netcoreapp2.0\RQM.Common.dll
+C:\CICD\RQMServices\RQM.Common\obj\Debug\netcoreapp2.0\RQM.Common.pdb
