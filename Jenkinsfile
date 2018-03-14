@@ -12,11 +12,10 @@ node('master') {
             bat 'dotnet restore'
 
         }
-        stage('build') {
+        stage('build and deploy') {
 
-            bat 'dotnet build'
-
-            
+            bat 'dotnet build /p:DeployOnBuild=true /p:PublishProfile=CustomProfile.pubxml'
+            // old msbuild code
             // bat "\"${tool 'MSBuild - 15.0'}\" TestProject.sln /p:DeployOnBuild=true /p:PublishProfile=CustomProfile.pubxml"
         }
         /*
