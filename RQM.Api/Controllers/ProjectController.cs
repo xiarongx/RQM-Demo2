@@ -36,7 +36,16 @@ namespace RQM.Api.Controllers
             try
             {
                 _logger.LogInformation("Getting project list");
-                projectList = readProject.getProjects();
+                // workaround
+                // projectList = readProject.getProjects();
+                Project project1 = new Project();
+                project1.Name = "CICD";
+                Project project2 = new Project();
+                project2.Name = "ACRedit";
+                Project project3 = new Project();
+                project3.Name = "TaxBook";
+                projectList.Add(project1);
+                projectList.Add(project2);
                 return Json(projectList);
             }
             catch (Exception ex)
