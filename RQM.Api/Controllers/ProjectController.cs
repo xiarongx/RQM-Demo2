@@ -46,6 +46,7 @@ namespace RQM.Api.Controllers
                 project3.Name = "TaxBook";
                 projectList.Add(project1);
                 projectList.Add(project2);
+                projectList.Add(project3);
                 return Json(projectList);
             }
             catch (Exception ex)
