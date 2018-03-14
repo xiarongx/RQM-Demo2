@@ -7,10 +7,19 @@ node('master') {
             checkout scm
         }
 
-        stage('Build and Publish'){
-            bat 'C:\\Tools\\nuget.exe restore RQMServices.sln'
-            bat "\"${tool 'MSBuild - 15.0'}\" RQMServices.sln /p:DeployOnBuild=true /p:PublishProfile=CustomProfile.pubxml"
+        stage('restore'){
+
+            bat 'dotnet restore'
+
         }
+        stage('build') {
+
+            bat 'dotnet build'
+
+            
+            // bat "\"${tool 'MSBuild - 15.0'}\" TestProject.sln /p:DeployOnBuild=true /p:PublishProfile=CustomProfile.pubxml"
+        }
+        /*
         /*
         stage('Backend Test'){
             // Use Xunit.Runner.Console to excute unit test files and generate report in xml format
